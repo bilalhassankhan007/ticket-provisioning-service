@@ -13,7 +13,7 @@
 docker-compose up -d
 ```
 
-This starts PostgreSQL on port 5432 with:
+This starts PostgreSQL on port 5433 with:
 - Database: `tickets`
 - Username: `postgres`
 - Password: `postgres`
@@ -41,7 +41,7 @@ Server runs on http://localhost:3000
 ## Environment Variables
 
 No additional configuration needed - uses default values:
-- Database: `localhost:5432/tickets`
+- Database: `localhost:5433/tickets`
 - API Server: `http://localhost:3000`
 
 ## Verify Setup
@@ -62,4 +62,4 @@ docker-compose up -d
 ```
 
 ### Port conflicts
-Check ports 3000 and 5432 are available or modify in `docker-compose.yml`
+Check ports 3000 and 5433 are available or modify in `docker-compose.yml`

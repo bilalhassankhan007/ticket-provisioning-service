@@ -8,7 +8,7 @@ interface TicketPool {
 
 const pool = new Pool({
   host: "localhost",
-  port: 5432,
+  port: 5433,
   database: "tickets",
   user: "postgres",
   password: "postgres",
