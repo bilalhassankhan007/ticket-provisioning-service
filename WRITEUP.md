@@ -1,4 +1,4 @@
-# Ticket Service — Concurrency Bug Fix + Scaling Bonus (SWE-1 Assignment)
+# Ticket Service — Concurrency Bug Fix
 
 A ticket provisioning backend for high-demand events where users purchase tickets in multiples of 8 (8, 16, 24, 32...). This write-up documents the root cause, reproduction, fix, and bonus scaling approach (multi-instance + high performance).
 
