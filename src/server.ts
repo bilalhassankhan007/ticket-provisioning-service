@@ -56,7 +56,8 @@ app.post(
   },
 );
 
-const PORT = 3000;
+// allow overriding port via env, default remains 3000
+const PORT = Number(process.env.PORT ?? 3000);
 
 async function waitForDatabase(maxRetries = 30): Promise<void> {
   const { Pool } = await import("pg");
